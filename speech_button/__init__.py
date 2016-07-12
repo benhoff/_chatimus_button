@@ -29,7 +29,7 @@ def _send_speech_command(messager):
     that is passed in
     """
     def inner():
-        messager.send_command('speech')
+        messager.send_command('record')
     return inner
 
 def add_speech_button(main_window, messager):
