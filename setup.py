@@ -10,7 +10,7 @@ with open(os.path.join(directory, 'README.rst')) as f:
 
 setup(
     name="chatimus_speech",
-    version='0.0.1',
+    version='0.0.2',
     description='Python personal assistant',
     # long_description=long_description,
     url='https://github.com/benhoff/chatimus_speech',
